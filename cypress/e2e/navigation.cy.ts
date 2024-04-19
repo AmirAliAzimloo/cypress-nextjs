@@ -8,7 +8,7 @@ describe('navigation tests', () => {
     cy.get('[data-id="open-sidebar"]').should('not.exist');
   });
   
-  it.only('tests navigation', () => {
+  it('tests navigation', () => {
     cy.visit('/');
     cy.get('[data-id="open-sidebar-btn"]').click();
 
