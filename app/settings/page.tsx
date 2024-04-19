@@ -7,7 +7,7 @@ export default function SettingsPage() {
             data-id="settings-header"
             className="text-3xl text-gray-800 dark:text-gray-200 font-bold mb-4"
             >
-            Settings
+            Settings Page
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed m-10">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque doloremque delectus quis! Consectetur quae sint nesciunt dolor expedita nostrum, numquam amet. Molestias nemo veniam corrupti at dicta architecto accusamus a?
