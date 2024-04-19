@@ -31,13 +31,14 @@ const TodoList = () => {
                     Add Task
                 </button>
             </form>
-            <ul>
+            <ul data-id="todo-list" >
                 {tasks.map((task: any, index: number) => (
                     <li key={index} className="flex justify-between items-center mb-2">
                         <span>{task}</span>
                         <button
                             className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-3 rounded"
                             onClick={() => removeTask(index)}
+                            data-id={`${task}-remove-btn`}
                         >
                             X
                         </button>
